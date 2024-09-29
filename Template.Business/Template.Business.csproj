@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Copyright>Issam Shadid Copyright © 2024</Copyright>
+        <AssemblyName>Template.Business</AssemblyName>
+        <RootNamespace>Template.Business</RootNamespace>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Template.Business</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="8.0.0"/>
+        <PackageReference Include="FirebaseAdmin" Version="3.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.7"/>
+        <PackageReference Include="Microsoft.Azure.SignalR" Version="1.27.0"/>
+        <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.7"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Template.Contracts\Template.Contracts.csproj"/>
+        <ProjectReference Include="..\Template.DataAccess\Template.DataAccess.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Services\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Persistence\Data\category.json" />
+      <EmbeddedResource Include="Persistence\Data\category.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,97 @@
+# Ignore build outputs and Rider-specific files
+
+### Rider ###
+.idea/
+.idea_modules/
+.shelf/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/sqlDataSources.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local/
+.idea/sqlDialects.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/caches
+.idea/codestyles
+.idea/markdown-navigator.xml
+.idea/markdown-navigator.xml
+.idea/misc.xml
+
+# Rider's settings directories
+.idea/*
+!/.idea/vcs.xml
+
+### .NET ###
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+### DotNet specific ###
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Uncomment if you have resharper
+# Resharper
+*.DotSettings.user
+*.DotSettings
+_ReSharper.Caches/
+_ReSharper*/
+
+# Rider's UI Designer (optional)
+.idea/uiDesigner.xml
+
+# Rider's workspace and tasks (optional)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/usage.statistics.xml
+.idea/jsLibraryMappings.xml
+
+# Crash dumps, hprof files
+*.stackdump
+*.hprof
+
+# Rider code styles and libraries
+.idea/codestyles/
+.idea/libraries/
+
+### General ###
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs and debug files
+*.log
+*.stackdump
+*.swp
+*~
