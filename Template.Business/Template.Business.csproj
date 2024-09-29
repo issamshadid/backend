@@ -12,9 +12,7 @@
 
     <ItemGroup>
         <PackageReference Include="Autofac" Version="8.0.0"/>
-        <PackageReference Include="FirebaseAdmin" Version="3.0.0"/>
         <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.7"/>
-        <PackageReference Include="Microsoft.Azure.SignalR" Version="1.27.0"/>
         <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.7"/>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
     </ItemGroup>
