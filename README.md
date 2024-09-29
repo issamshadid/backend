@@ -42,7 +42,7 @@ If you are looking to contribute code, please follow these steps:
 
 ## Code of Conduct
 
-We are committed to fostering a welcoming, respectful, and collaborative environment for everyone. Please follow our [Code of Conduct](#) (https://github.com/issamshadid/backend/blob/main/CODE_OF_CONDUCT.md).
+We are committed to fostering a welcoming, respectful, and collaborative environment for everyone. Please follow our [Code of Conduct](https://github.com/issamshadid/backend/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 
@@ -76,8 +76,8 @@ Ensure you have the following installed before starting:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/issamshadid/backend.git
+   cd backend
    ```
 
 2. **Install dependencies**:
